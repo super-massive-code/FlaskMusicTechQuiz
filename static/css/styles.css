@@ -135,3 +135,93 @@ button:hover {
   background-color: #4cd137;
   transition: width 0.4s ease;
 }
+.highscores-container {
+    margin-top: 40px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f7b731, #f6e58d);
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.highscores-container h2 {
+    font-size: 1.8rem;
+    color: #2f3640;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+#highscores-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#highscores-list li {
+    background-color: #fffbea;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #2d3436;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#highscores-list li:hover {
+    transform: scale(1.02);
+    background-color: #fff9c4;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* left-align the buttons */
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #f7b731;
+    border: none;
+    border-radius: 8px;
+    color: #2f3640;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button-group button:hover {
+    background-color: #f6b93b;
+    transform: translateY(-2px);
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-button {
+    margin-top: 30px;
+}
+
+.back-button button {
+    padding: 10px 20px;
+    background-color: #dcdde1;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.back-button button:hover {
+    background-color: #c8c9ca;
+}

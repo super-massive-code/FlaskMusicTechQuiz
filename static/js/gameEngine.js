@@ -49,7 +49,7 @@ function checkAnswer(selected, correct) {
 
   setTimeout(() => {
     loadNextQuestion()
-  }, 2000)
+  }, 1000)
 }
 
 function loadNextQuestion() {
@@ -66,6 +66,27 @@ function showQuizComplete() {
   document.getElementById("options").innerHTML = "";
   document.getElementById("feedback").innerText = `Your final score is ${currentScore} out of ${quizData.length}.`;
   document.getElementById("feedback").style.color = "#f7b731";
+  setTimeout(() => {
+    const playerName = prompt("Enter you name for leaderboard entry");
+    postHighScore(playerName, currentScore);
+  }, 1000)
+}
+
+function postHighScore(name, score) {
+  fetch('/api/highscore', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ name: name, score: score })
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log('High score submitted:', data);
+  })
+  .catch(error => {
+    console.error('Error submitting high score:', error);
+  });
 }
 
 fetch('/api/questions')
