@@ -1,242 +1,1537 @@
 [
   {
-    "question": "Which of these DAWs is developed by Ableton?",
+    "question": "What does 'DAW' stand for in music production?",
     "options": {
-      "1": "FL Studio",
-      "2": "Logic Pro",
-      "3": "Live",
-      "4": "Pro Tools"
+      "1": "Digital Audio Workshop",
+      "2": "Digital Audio Workstation",
+      "3": "Direct Audio Wire",
+      "4": "Digital Automation Window"
     },
-    "answer": 3,
+    "answer": 2,
     "difficulty": "Beginner",
     "category": "Software"
   },
   {
-    "question": "What is the typical bit depth used in professional audio recording?",
+    "question": "What is the most common audio file format used for CDs?",
     "options": {
-      "1": "8-bit",
-      "2": "16-bit",
-      "3": "24-bit",
-      "4": "32-bit"
-    },
-    "answer": 3,
-    "difficulty": "Intermediate",
-    "category": "Hardware"
-  },
-  {
-    "question": "What does ADSR stand for in synthesizers?",
-    "options": {
-      "1": "Attack, Decay, Sustain, Release",
-      "2": "Amplitude, Depth, Sustain, Resonance",
-      "3": "Attack, Delay, Sustain, Reverb",
-      "4": "Amplitude, Delay, Sustain, Release"
+      "1": "WAV",
+      "2": "MP3",
+      "3": "FLAC",
+      "4": "AIFF"
     },
     "answer": 1,
     "difficulty": "Beginner",
-    "category": "Synthesis"
+    "category": "Audio Formats"
   },
   {
-    "question": "Which MIDI channel number is used for General MIDI percussion instruments?",
+    "question": "Which of the following audio effects is primarily used to simulate a sense of space in a recording?",
     "options": {
-      "1": "1",
-      "2": "10",
-      "3": "16",
-      "4": "8"
-    },
-    "answer": 2,
-    "difficulty": "Intermediate",
-    "category": "MIDI Theory"
-  },
-  {
-    "question": "What is the main purpose of a limiter in a mastering chain?",
-    "options": {
-      "1": "To add reverb",
-      "2": "To reduce background noise",
-      "3": "To prevent clipping",
-      "4": "To widen the stereo field"
-    },
-    "answer": 3,
-    "difficulty": "Advanced",
-    "category": "Mixing & Mastering"
-  },
-  {
-    "question": "Which connector type is typically used for professional microphones?",
-    "options": {
-      "1": "RCA",
-      "2": "XLR",
-      "3": "1/4 inch TS",
-      "4": "1/8 inch TRS"
-    },
-    "answer": 2,
-    "difficulty": "Beginner",
-    "category": "Hardware"
-  },
-  {
-    "question": "Which company is known for the Kontakt sampler?",
-    "options": {
-      "1": "Native Instruments",
-      "2": "Spectrasonics",
-      "3": "Arturia",
-      "4": "Image-Line"
-    },
-    "answer": 1,
-    "difficulty": "Intermediate",
-    "category": "Software"
-  },
-  {
-    "question": "What type of synthesis is primarily used in the Yamaha DX7?",
-    "options": {
-      "1": "Subtractive",
-      "2": "Additive",
-      "3": "FM (Frequency Modulation)",
-      "4": "Wavetable"
-    },
-    "answer": 3,
-    "difficulty": "Advanced",
-    "category": "Synthesis"
-  },
-  {
-    "question": "In audio mixing, what does 'pan' control?",
-    "options": {
-      "1": "Volume",
-      "2": "Pitch",
-      "3": "Stereo placement",
+      "1": "Reverb",
+      "2": "Chorus",
+      "3": "Delay",
       "4": "EQ"
     },
-    "answer": 3,
-    "difficulty": "Beginner",
-    "category": "Mixing & Mastering"
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
   },
   {
-    "question": "Which plugin type is native to Apple Logic Pro?",
+    "question": "What is a MIDI controller used for?",
     "options": {
-      "1": "VST",
-      "2": "AU",
-      "3": "AAX",
-      "4": "RTAS"
+      "1": "Creating audio files",
+      "2": "Playing and recording MIDI data",
+      "3": "Mixing tracks",
+      "4": "Editing audio waves"
     },
     "answer": 2,
-    "difficulty": "Intermediate",
-    "category": "Software"
+    "difficulty": "Beginner",
+    "category": "MIDI"
   },
   {
-    "question": "Who created the first commercially successful digital synthesizer, the DX7?",
+    "question": "What is the purpose of a low-pass filter in sound synthesis?",
     "options": {
-      "1": "Roland",
-      "2": "Moog",
-      "3": "Yamaha",
-      "4": "Korg"
+      "1": "To filter out low frequencies",
+      "2": "To pass all frequencies above a certain cutoff",
+      "3": "To reduce high frequencies",
+      "4": "To amplify mid-range frequencies"
     },
     "answer": 3,
-    "difficulty": "Music Tech History",
+    "difficulty": "Intermediate",
+    "category": "Synthesis"
+  },
+  {
+    "question": "Which of the following companies is known for the TR-808 drum machine?",
+    "options": {
+      "1": "Roland",
+      "2": "Korg",
+      "3": "Yamaha",
+      "4": "Akai"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
     "category": "Music Tech History"
   },
   {
-    "question": "What does a high-pass filter do?",
+    "question": "Which of these is a type of synthesis where sound is created by modulating an oscillator with an envelope?",
     "options": {
-      "1": "Boosts low frequencies",
-      "2": "Cuts high frequencies",
-      "3": "Cuts low frequencies",
-      "4": "Adds resonance"
+      "1": "Subtractive synthesis",
+      "2": "FM synthesis",
+      "3": "Additive synthesis",
+      "4": "Sample-based synthesis"
     },
-    "answer": 3,
-    "difficulty": "Beginner",
+    "answer": 1,
+    "difficulty": "Advanced",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What is the main purpose of a gate in audio processing?",
+    "options": {
+      "1": "To increase the volume",
+      "2": "To remove background noise when the signal is below a certain threshold",
+      "3": "To add reverb to a signal",
+      "4": "To manipulate the pitch of an audio signal"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
     "category": "Audio Effects"
   },
   {
-    "question": "Which device is used to convert analog audio signals into digital form?",
+    "question": "Which of the following is NOT an example of a digital audio workstation (DAW)?",
     "options": {
-      "1": "Compressor",
-      "2": "Audio Interface",
-      "3": "Preamp",
-      "4": "Monitor Controller"
+      "1": "Ableton Live",
+      "2": "Logic Pro X",
+      "3": "Final Cut Pro",
+      "4": "FL Studio"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What does 'bit depth' refer to in digital audio?",
+    "options": {
+      "1": "The number of audio channels in a recording",
+      "2": "The number of samples taken per second",
+      "3": "The range of loudness values in an audio signal",
+      "4": "The length of the recording"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Audio Formats"
+  },
+  {
+    "question": "What is the standard sample rate for audio CDs?",
+    "options": {
+      "1": "44.1 kHz",
+      "2": "48 kHz",
+      "3": "96 kHz",
+      "4": "192 kHz"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Audio Formats"
+  },
+  {
+    "question": "Which of the following is a popular synthesizer plugin?",
+    "options": {
+      "1": "Serum",
+      "2": "Reaper",
+      "3": "FL Studio",
+      "4": "Pro Tools"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Software"
+  },
+  {
+    "question": "What does EQ stand for in audio mixing?",
+    "options": {
+      "1": "Equalizer",
+      "2": "Equalization",
+      "3": "Enhanced Quality",
+      "4": "Essential Quantization"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is the main purpose of compression in audio production?",
+    "options": {
+      "1": "To increase the volume of low signals",
+      "2": "To reduce the dynamic range between loud and quiet sounds",
+      "3": "To add reverb to the sound",
+      "4": "To add distortion to the sound"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which type of microphone is commonly used for recording vocals in a studio?",
+    "options": {
+      "1": "Dynamic microphone",
+      "2": "Condenser microphone",
+      "3": "Ribbon microphone",
+      "4": "Lavalier microphone"
     },
     "answer": 2,
     "difficulty": "Beginner",
     "category": "Hardware"
   },
   {
-    "question": "What is the function of the threshold setting on a noise gate?",
+    "question": "What is the primary function of an audio interface?",
     "options": {
-      "1": "It sets how much compression is applied",
-      "2": "It defines when the gate opens or closes",
-      "3": "It determines attack time",
-      "4": "It boosts the signal"
+      "1": "To add reverb and effects",
+      "2": "To convert analog signals to digital format",
+      "3": "To control the loudness of the audio",
+      "4": "To manipulate MIDI data"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Hardware"
+  },
+  {
+    "question": "What does the term 'sampling rate' refer to in digital audio?",
+    "options": {
+      "1": "The frequency at which audio samples are captured per second",
+      "2": "The number of bits per sample",
+      "3": "The length of the audio file",
+      "4": "The frequency range of the audio"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Audio Formats"
+  },
+  {
+    "question": "Which of the following effects is used to alter the pitch of a sound in real-time?",
+    "options": {
+      "1": "Reverb",
+      "2": "Pitch shift",
+      "3": "Compression",
+      "4": "Chorus"
     },
     "answer": 2,
     "difficulty": "Intermediate",
-    "category": "Mixing & Mastering"
+    "category": "Audio Effects"
   },
   {
-    "question": "Which plugin format is used by Pro Tools?",
+    "question": "Which type of MIDI message is used to control the volume of a sound?",
     "options": {
-      "1": "AU",
-      "2": "VST3",
-      "3": "AAX",
-      "4": "VST2"
+      "1": "Note-on",
+      "2": "Control change",
+      "3": "Program change",
+      "4": "Pitch bend"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "MIDI"
+  },
+  {
+    "question": "Which of the following is NOT a software synthesizer?",
+    "options": {
+      "1": "Massive",
+      "2": "Omnisphere",
+      "3": "Ableton Live",
+      "4": "Sylenth1"
     },
     "answer": 3,
     "difficulty": "Intermediate",
     "category": "Software"
   },
   {
-    "question": "Which drum machine popularized electronic music in the 1980s?",
+    "question": "What is a typical use for sidechain compression in modern music production?",
     "options": {
-      "1": "Akai MPC",
-      "2": "Roland TR-808",
-      "3": "LinnDrum",
-      "4": "Yamaha RX5"
+      "1": "To make a kick drum more prominent in a mix",
+      "2": "To smooth out a vocal performance",
+      "3": "To add distortion to the bassline",
+      "4": "To create a reverb effect on a snare drum"
+    },
+    "answer": 1,
+    "difficulty": "Advanced",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of the following is a widely used digital audio workstation (DAW)?",
+    "options": {
+      "1": "GarageBand",
+      "2": "Notepad",
+      "3": "Photoshop",
+      "4": "Excel"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "Which type of audio cable is commonly used to connect microphones to audio interfaces?",
+    "options": {
+      "1": "XLR cable",
+      "2": "TRS cable",
+      "3": "RCA cable",
+      "4": "USB cable"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Hardware"
+  },
+  {
+    "question": "What does a 'lo-fi' production typically refer to?",
+    "options": {
+      "1": "High-quality, polished audio production",
+      "2": "Intentionally degraded audio, often with noise and distortion",
+      "3": "Professional audio mixing and mastering",
+      "4": "A genre of classical music"
     },
     "answer": 2,
     "difficulty": "Intermediate",
-    "category": "Music Tech History"
+    "category": "Production Style"
   },
   {
-    "question": "What does 'sidechain compression' typically achieve?",
+    "question": "Which of the following is a characteristic of 'overdrive' in audio production?",
     "options": {
-      "1": "Boosts the bass",
-      "2": "Creates rhythmic pumping effects",
-      "3": "Reduces noise",
-      "4": "Widen the stereo image"
+      "1": "It boosts the low-end frequencies",
+      "2": "It simulates the sound of a distorted guitar amplifier",
+      "3": "It applies a high-pass filter to the signal",
+      "4": "It reverses the phase of the signal"
     },
     "answer": 2,
-    "difficulty": "Advanced",
-    "category": "Mixing & Mastering"
+    "difficulty": "Intermediate",
+    "category": "Audio Effects"
   },
   {
-    "question": "What is the purpose of MIDI velocity?",
+    "question": "Which of the following is a common type of sound modulation used in synthesizers?",
     "options": {
-      "1": "Controls the pitch of a note",
-      "2": "Changes the duration of a note",
-      "3": "Controls how loud or soft a note is played",
-      "4": "Assigns modulation to notes"
+      "1": "Amplitude modulation",
+      "2": "Phase modulation",
+      "3": "Frequency modulation",
+      "4": "All of the above"
+    },
+    "answer": 4,
+    "difficulty": "Advanced",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What does 'reverb' simulate in audio production?",
+    "options": {
+      "1": "A delay between sound sources",
+      "2": "The reflection of sound waves off surfaces in a space",
+      "3": "A change in the pitch of the sound",
+      "4": "The distortion of sound waves"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of these audio file formats is lossless?",
+    "options": {
+      "1": "MP3",
+      "2": "WAV",
+      "3": "FLAC",
+      "4": "AAC"
     },
     "answer": 3,
-    "difficulty": "Beginner",
-    "category": "MIDI Theory"
+    "difficulty": "Intermediate",
+    "category": "Audio Formats"
   },
   {
-    "question": "Which effect simulates space and depth by creating echoes of the sound?",
+    "question": "Which of the following is a technique used to balance the loudness of different elements in a mix?",
     "options": {
       "1": "EQ",
       "2": "Compression",
-      "3": "Reverb",
-      "4": "Flanger"
+      "3": "Panning",
+      "4": "Sidechain"
+    },
+    "answer": 2,
+    "difficulty": "Advanced",
+    "category": "Mixing"
+  },
+  {
+    "question": "What does 'tempo' refer to in music production?",
+    "options": {
+      "1": "The pitch of the sound",
+      "2": "The speed of the music",
+      "3": "The volume of the music",
+      "4": "The length of the audio track"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Music Theory"
+  },
+  {
+    "question": "What is the purpose of a high-pass filter in audio production?",
+    "options": {
+      "1": "To boost high frequencies",
+      "2": "To remove low frequencies",
+      "3": "To reduce high frequencies",
+      "4": "To add reverb to the sound"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is a 'kick drum' in music production?",
+    "options": {
+      "1": "A percussive sound used to simulate a bass",
+      "2": "A sound that adds harmony to a track",
+      "3": "The primary drum sound used to emphasize rhythm",
+      "4": "A cymbal sound"
     },
     "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Drums"
+  },
+  {
+    "question": "Which of the following is an example of a DAW?",
+    "options": {
+      "1": "Serum",
+      "2": "Logic Pro",
+      "3": "Fruity Loops",
+      "4": "Sylenth1"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "Which of the following is NOT a common audio effect?",
+    "options": {
+      "1": "Reverb",
+      "2": "Chorus",
+      "3": "Overdrive",
+      "4": "Distortion",
+      "5": "Contrast"
+    },
+    "answer": 5,
     "difficulty": "Beginner",
     "category": "Audio Effects"
   },
   {
-    "question": "What kind of microphone is most commonly used for vocals in a studio setting?",
+    "question": "What is the most common audio file format used for high-quality audio?",
     "options": {
-      "1": "Dynamic",
-      "2": "Ribbon",
-      "3": "Condenser",
-      "4": "Lavalier"
+      "1": "MP3",
+      "2": "WAV",
+      "3": "FLAC",
+      "4": "AAC"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Audio Formats"
+  },
+  {
+    "question": "What is a virtual instrument in music production?",
+    "options": {
+      "1": "A physical keyboard used for playing music",
+      "2": "A software program that simulates instruments",
+      "3": "A microphone used to capture sound",
+      "4": "A synthesizer plugin"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What is a 'soundstage' in audio production?",
+    "options": {
+      "1": "A room used for recording vocals",
+      "2": "The perceived space in which sounds exist within a mix",
+      "3": "The process of mastering a song",
+      "4": "A software used to create sound effects"
+    },
+    "answer": 2,
+    "difficulty": "Advanced",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is the name of the process that reduces unwanted background noise in a recording?",
+    "options": {
+      "1": "Compression",
+      "2": "Noise gating",
+      "3": "Equalization",
+      "4": "Pitch shifting"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "Which of the following is a famous music production software company?",
+    "options": {
+      "1": "Roland",
+      "2": "Apple",
+      "3": "Ableton",
+      "4": "Yamaha"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What does MIDI stand for in music production?",
+    "options": {
+      "1": "Music Interface Digital Information",
+      "2": "Musical Instrument Digital Interface",
+      "3": "Multimedia Integrated Data Input",
+      "4": "Machine Integrated Digital Information"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "MIDI"
+  },
+  {
+    "question": "Which of the following is a commonly used reverb plugin in music production?",
+    "options": {
+      "1": "Waves H-Reverb",
+      "2": "EQ8",
+      "3": "Subtractive",
+      "4": "Flanger"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "What is the purpose of a limiter in audio production?",
+    "options": {
+      "1": "To reduce the volume of an audio signal",
+      "2": "To remove low frequencies from a track",
+      "3": "To increase the dynamic range of the sound",
+      "4": "To prevent the signal from clipping"
+    },
+    "answer": 4,
+    "difficulty": "Advanced",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of the following is a key component in a typical audio interface?",
+    "options": {
+      "1": "Audio tracks",
+      "2": "ADC (Analog-to-Digital Converter)",
+      "3": "Synthesizer",
+      "4": "Wavetable"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Hardware"
+  },
+  {
+    "question": "Which software tool would you use to manipulate audio samples?",
+    "options": {
+      "1": "Digital Audio Workstation (DAW)",
+      "2": "Pitch shifter",
+      "3": "MIDI sequencer",
+      "4": "Automation plugin"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What type of plugin is used to simulate the sound of a guitar amplifier?",
+    "options": {
+      "1": "Reverb plugin",
+      "2": "Amp simulator plugin",
+      "3": "Pitch shift plugin",
+      "4": "Compression plugin"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "What is the purpose of an audio compressor?",
+    "options": {
+      "1": "To add reverb to the sound",
+      "2": "To increase the dynamic range of a track",
+      "3": "To limit the volume range and prevent clipping",
+      "4": "To change the pitch of the audio"
     },
     "answer": 3,
     "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is 'sidechain compression' commonly used for in electronic music?",
+    "options": {
+      "1": "To add reverb to a kick drum",
+      "2": "To make room for vocals in a mix",
+      "3": "To make a bassline pump with the kick drum",
+      "4": "To control stereo panning"
+    },
+    "answer": 3,
+    "difficulty": "Advanced",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of the following is a widely used DAW for music production?",
+    "options": {
+      "1": "Microsoft Word",
+      "2": "Adobe Photoshop",
+      "3": "Ableton Live",
+      "4": "Final Cut Pro"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What is the difference between analog and digital synthesizers?",
+    "options": {
+      "1": "Analog synthesizers use digital sound generation, while digital synthesizers use analog circuits",
+      "2": "Analog synthesizers use physical circuits to create sound, while digital synthesizers use software",
+      "3": "Digital synthesizers are older than analog synthesizers",
+      "4": "Analog synthesizers only work with vinyl records"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Synthesis"
+  },
+  {
+    "question": "Which of the following is a basic element of sound design?",
+    "options": {
+      "1": "Pitch",
+      "2": "Vibrato",
+      "3": "Reverb",
+      "4": "All of the above"
+    },
+    "answer": 4,
+    "difficulty": "Intermediate",
+    "category": "Sound Design"
+  },
+  {
+    "question": "What is the role of a sound engineer in a recording session?",
+    "options": {
+      "1": "To produce the music",
+      "2": "To perform the music",
+      "3": "To capture and mix audio during recording",
+      "4": "To distribute the music"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Production Team"
+  },
+  {
+    "question": "What does the term 'gain staging' refer to in audio production?",
+    "options": {
+      "1": "Setting the levels of each track to ensure clarity and prevent clipping",
+      "2": "Applying gain to increase the volume of the entire mix",
+      "3": "Adding distortion to tracks",
+      "4": "Controlling the pitch of individual instruments"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of the following is an example of a synthesizer plugin?",
+    "options": {
+      "1": "Omnisphere",
+      "2": "FabFilter Pro-Q",
+      "3": "Waves SSL G-Master Buss Compressor",
+      "4": "iZotope Ozone"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What does a 'bus' do in a mixing console?",
+    "options": {
+      "1": "It controls the pitch of the audio signal",
+      "2": "It sends multiple audio signals to a common destination",
+      "3": "It adds reverb to a track",
+      "4": "It filters high frequencies from the mix"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which of the following is a function of an equalizer (EQ) in audio mixing?",
+    "options": {
+      "1": "To change the loudness of the entire track",
+      "2": "To add reverb to a track",
+      "3": "To adjust the balance of frequencies within a track",
+      "4": "To pitch shift the track"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is 'sampling' in music production?",
+    "options": {
+      "1": "Recording and processing sounds from real instruments",
+      "2": "Using pre-recorded audio from other songs or sounds in your production",
+      "3": "Creating beats using only digital instruments",
+      "4": "Performing live in front of an audience"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Sound Design"
+  },
+  {
+    "question": "Which type of microphone is commonly used for recording vocals?",
+    "options": {
+      "1": "Dynamic microphone",
+      "2": "Condenser microphone",
+      "3": "Ribbon microphone",
+      "4": "Lavalier microphone"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
     "category": "Hardware"
+  },
+  {
+    "question": "Which of these audio file formats supports lossless compression?",
+    "options": {
+      "1": "MP3",
+      "2": "WAV",
+      "3": "FLAC",
+      "4": "AAC"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Audio Formats"
+  },
+  {
+    "question": "What is the primary role of a MIDI controller in music production?",
+    "options": {
+      "1": "To create beats and loops",
+      "2": "To input MIDI data into a DAW or synthesizer",
+      "3": "To convert audio signals to digital data",
+      "4": "To record live audio"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Hardware"
+  },
+  {
+    "question": "What is the 'stereo field' in audio mixing?",
+    "options": {
+      "1": "The frequency range of a track",
+      "2": "The left and right balance of a track in the mix",
+      "3": "The volume of the audio in a track",
+      "4": "The dynamic range of the audio signal"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "What does the term 'clipping' mean in audio production?",
+    "options": {
+      "1": "When the audio signal is too loud and distorts",
+      "2": "When a track is panned too far to one side",
+      "3": "When the bass is too prominent in a mix",
+      "4": "When the track has too much reverb applied"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which software is known for its powerful ability to handle virtual instruments and MIDI compositions?",
+    "options": {
+      "1": "FL Studio",
+      "2": "Pro Tools",
+      "3": "Ableton Live",
+      "4": "Cubase"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Software"
+  },
+  {
+    "question": "What is 'quantization' in music production?",
+    "options": {
+      "1": "The process of adjusting the timing of MIDI notes to a grid",
+      "2": "The act of mixing multiple audio tracks together",
+      "3": "The effect of changing the pitch of a track",
+      "4": "The process of mastering a song"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "MIDI"
+  },
+  {
+    "question": "Which of the following is an example of an effect used to simulate space and depth in a track?",
+    "options": {
+      "1": "Reverb",
+      "2": "EQ",
+      "3": "Distortion",
+      "4": "Compressor"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "What is the purpose of a 'synthesizer' in music production?",
+    "options": {
+      "1": "To record live instruments",
+      "2": "To manipulate and generate sound using oscillators and filters",
+      "3": "To control the volume of the mix",
+      "4": "To capture audio signals from microphones"
+    },
+    "answer": 2
+  },
+  {
+    "question": "What is the primary advantage of using mid-side (M/S) processing in mastering?",
+    "options": {
+      "1": "It boosts the stereo width uniformly",
+      "2": "It allows independent processing of center and side information",
+      "3": "It improves mono compatibility",
+      "4": "It enhances transient response"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "Which analog synthesis technique involves the use of a carrier and modulator oscillator to generate complex harmonic content?",
+    "options": {
+      "1": "Additive synthesis",
+      "2": "Subtractive synthesis",
+      "3": "FM synthesis",
+      "4": "Wavetable synthesis"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "In audio phase correlation meters, what value indicates a fully out-of-phase stereo signal?",
+    "options": {
+      "1": "+1",
+      "2": "0",
+      "3": "-1",
+      "4": "+0.5"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mixing"
+  },
+  {
+    "question": "Which sampling rate is typically used for mastering in high-resolution audio formats like Blu-ray Audio?",
+    "options": {
+      "1": "44.1 kHz",
+      "2": "48 kHz",
+      "3": "96 kHz",
+      "4": "22.05 kHz"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "What is the purpose of a lookahead feature in a limiter plugin?",
+    "options": {
+      "1": "To reduce CPU usage",
+      "2": "To anticipate peaks before they occur and apply gain reduction smoothly",
+      "3": "To delay processing for phase alignment",
+      "4": "To add analog warmth"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Dynamics Processing"
+  },
+  {
+    "question": "Which EQ filter type is best suited for surgical removal of a narrow problematic frequency?",
+    "options": {
+      "1": "High-pass filter",
+      "2": "Shelf filter",
+      "3": "Notch filter",
+      "4": "Band-pass filter"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "EQ & Filtering"
+  },
+  {
+    "question": "In digital audio, what issue can occur when converting high-frequency content with insufficient sampling rate?",
+    "options": {
+      "1": "Compression",
+      "2": "Aliasing",
+      "3": "Clipping",
+      "4": "Reverb smearing"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "Which mastering technique is used to preserve loudness while avoiding inter-sample peaks?",
+    "options": {
+      "1": "Brickwall limiting",
+      "2": "True peak limiting",
+      "3": "Mid-side EQ",
+      "4": "Parallel compression"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "What is the main advantage of using convolution reverb over algorithmic reverb?",
+    "options": {
+      "1": "Lower CPU usage",
+      "2": "More realistic replication of real spaces",
+      "3": "Shorter latency",
+      "4": "More flexible modulation options"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Effects"
+  },
+  {
+    "question": "Which term describes the perceptual change in pitch due to fast modulation of frequency?",
+    "options": {
+      "1": "Tremolo",
+      "2": "Flanging",
+      "3": "Chorus",
+      "4": "Vibrato"
+    },
+    "answer": 4,
+    "difficulty": "Expert",
+    "category": "Modulation"
+  },
+  {
+    "question": "Which of the following is a key benefit of 32-bit floating point audio over 24-bit fixed point?",
+    "options": {
+      "1": "Smaller file sizes",
+      "2": "Improved stereo imaging",
+      "3": "Virtually unlimited headroom",
+      "4": "Higher sampling rate"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "What is the result of using linear phase EQ compared to minimum phase EQ?",
+    "options": {
+      "1": "Added harmonic distortion",
+      "2": "Better mono compatibility",
+      "3": "Preserved phase relationships but possible pre-ringing",
+      "4": "Smaller CPU load"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "EQ & Filtering"
+  },
+  {
+    "question": "In modular synthesis, what is the function of a VCA (Voltage Controlled Amplifier)?",
+    "options": {
+      "1": "Shape waveforms",
+      "2": "Generate audio signals",
+      "3": "Control amplitude via voltage",
+      "4": "Filter high frequencies"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "Which dithering method is often used for minimizing quantization noise during bit depth reduction?",
+    "options": {
+      "1": "Truncation",
+      "2": "Noise shaping",
+      "3": "Aliasing",
+      "4": "Interpolation"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "In mixing, what is the Haas effect primarily used to achieve?",
+    "options": {
+      "1": "Enhance bass response",
+      "2": "Simulate stereo width by delaying one channel",
+      "3": "Compress stereo field",
+      "4": "Correct phase issues"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Psychoacoustics"
+  },
+  {
+    "question": "What is the primary function of a Look-Ahead limiter in audio processing?",
+    "options": {
+      "1": "Boost bass frequencies",
+      "2": "Anticipate transients and prevent clipping",
+      "3": "Add harmonic distortion",
+      "4": "Delay audio to match video"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Dynamics"
+  },
+  {
+    "question": "Which phenomenon causes phasing issues when two microphones record the same source with slight timing differences?",
+    "options": {
+      "1": "Aliasing",
+      "2": "Comb filtering",
+      "3": "Dithering",
+      "4": "Reverb smearing"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Recording"
+  },
+  {
+    "question": "What does a high crest factor indicate in an audio signal?",
+    "options": {
+      "1": "Heavily compressed audio",
+      "2": "High dynamic range",
+      "3": "Clipping distortion",
+      "4": "Phase cancellation"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Audio Analysis"
+  },
+  {
+    "question": "In mastering, what is a common purpose of mid-side EQ?",
+    "options": {
+      "1": "Reduce stereo width",
+      "2": "Control mono compatibility",
+      "3": "Independently shape the center and sides of a stereo mix",
+      "4": "Add harmonic distortion to the master"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "Which term best describes the intentional detuning of oscillators to create a richer sound?",
+    "options": {
+      "1": "Syncing",
+      "2": "Portamento",
+      "3": "Unison",
+      "4": "Phase offset"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What does oversampling in a plugin help to reduce?",
+    "options": {
+      "1": "Latency",
+      "2": "CPU usage",
+      "3": "Aliasing artifacts",
+      "4": "Dynamic range"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "What is the primary risk of overusing multiband compression?",
+    "options": {
+      "1": "Stereo image collapse",
+      "2": "Increased noise floor",
+      "3": "Loss of natural dynamics and tonal balance",
+      "4": "More transient punch"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mixing"
+  },
+  {
+    "question": "What role does a sidechain input play in a compressor?",
+    "options": {
+      "1": "It sets the compressor’s release time",
+      "2": "It controls the threshold based on an external signal",
+      "3": "It boosts the gain during compression",
+      "4": "It adds reverb to the compressed signal"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Dynamics"
+  },
+  {
+    "question": "Which synthesis method involves using spectral resynthesis to recreate sounds from analysis data?",
+    "options": {
+      "1": "FM Synthesis",
+      "2": "Additive Synthesis",
+      "3": "Wavetable Synthesis",
+      "4": "Granular Synthesis"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What does a LUFS meter primarily measure?",
+    "options": {
+      "1": "Peak loudness",
+      "2": "Stereo width",
+      "3": "Perceived loudness over time",
+      "4": "Noise floor"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "What is the primary function of a Look-Ahead limiter in audio processing?",
+    "options": {
+      "1": "Boost bass frequencies",
+      "2": "Anticipate transients and prevent clipping",
+      "3": "Add harmonic distortion",
+      "4": "Delay audio to match video"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Dynamics"
+  },
+  {
+    "question": "Which phenomenon causes phasing issues when two microphones record the same source with slight timing differences?",
+    "options": {
+      "1": "Aliasing",
+      "2": "Comb filtering",
+      "3": "Dithering",
+      "4": "Reverb smearing"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Recording"
+  },
+  {
+    "question": "What does a high crest factor indicate in an audio signal?",
+    "options": {
+      "1": "Heavily compressed audio",
+      "2": "High dynamic range",
+      "3": "Clipping distortion",
+      "4": "Phase cancellation"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Audio Analysis"
+  },
+  {
+    "question": "In mastering, what is a common purpose of mid-side EQ?",
+    "options": {
+      "1": "Reduce stereo width",
+      "2": "Control mono compatibility",
+      "3": "Independently shape the center and sides of a stereo mix",
+      "4": "Add harmonic distortion to the master"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "Which term best describes the intentional detuning of oscillators to create a richer sound?",
+    "options": {
+      "1": "Syncing",
+      "2": "Portamento",
+      "3": "Unison",
+      "4": "Phase offset"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What does oversampling in a plugin help to reduce?",
+    "options": {
+      "1": "Latency",
+      "2": "CPU usage",
+      "3": "Aliasing artifacts",
+      "4": "Dynamic range"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "What is the primary risk of overusing multiband compression?",
+    "options": {
+      "1": "Stereo image collapse",
+      "2": "Increased noise floor",
+      "3": "Loss of natural dynamics and tonal balance",
+      "4": "More transient punch"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mixing"
+  },
+  {
+    "question": "What role does a sidechain input play in a compressor?",
+    "options": {
+      "1": "It sets the compressor’s release time",
+      "2": "It controls the threshold based on an external signal",
+      "3": "It boosts the gain during compression",
+      "4": "It adds reverb to the compressed signal"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Dynamics"
+  },
+  {
+    "question": "Which synthesis method involves using spectral resynthesis to recreate sounds from analysis data?",
+    "options": {
+      "1": "FM Synthesis",
+      "2": "Additive Synthesis",
+      "3": "Wavetable Synthesis",
+      "4": "Granular Synthesis"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What does a LUFS meter primarily measure?",
+    "options": {
+      "1": "Peak loudness",
+      "2": "Stereo width",
+      "3": "Perceived loudness over time",
+      "4": "Noise floor"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "Why is clock synchronization important in digital recording systems?",
+    "options": {
+      "1": "To avoid aliasing",
+      "2": "To improve frequency response",
+      "3": "To prevent timing errors and clicks",
+      "4": "To match gain structure"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "What does oversampling do in a digital plugin?",
+    "options": {
+      "1": "Reduces file size",
+      "2": "Improves aliasing performance at the cost of CPU",
+      "3": "Adds stereo width",
+      "4": "Increases dynamic range"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "Which synthesis method uses short recorded audio segments as its basis?",
+    "options": {
+      "1": "Granular synthesis",
+      "2": "FM synthesis",
+      "3": "Subtractive synthesis",
+      "4": "Additive synthesis"
+    },
+    "answer": 1,
+    "difficulty": "Expert",
+    "category": "Synthesis"
+  },
+  {
+    "question": "What is spectral masking in audio mixing?",
+    "options": {
+      "1": "A method of stereo widening",
+      "2": "Overlapping frequencies causing elements to become inaudible",
+      "3": "Automating EQ bands",
+      "4": "A form of dynamic compression"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Mixing"
+  },
+  {
+    "question": "Why might a mastering engineer use multiband compression instead of a standard compressor?",
+    "options": {
+      "1": "To independently compress different frequency ranges",
+      "2": "To increase overall volume",
+      "3": "To convert stereo to mono",
+      "4": "To apply sidechain ducking"
+    },
+    "answer": 1,
+    "difficulty": "Expert",
+    "category": "Mastering"
+  },
+  {
+    "question": "Which type of EQ is typically preferred for surgical frequency adjustments?",
+    "options": {
+      "1": "Shelf EQ",
+      "2": "Graphic EQ",
+      "3": "Parametric EQ",
+      "4": "Passive EQ"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Mixing"
+  },
+  {
+    "question": "What is the main purpose of a word clock in a studio setup?",
+    "options": {
+      "1": "To regulate CPU performance",
+      "2": "To synchronize the timing of digital devices",
+      "3": "To convert sample rates",
+      "4": "To control automation data"
+    },
+    "answer": 2,
+    "difficulty": "Expert",
+    "category": "Hardware"
+  },
+  {
+    "question": "What is a significant limitation of MP3 compression in professional audio work?",
+    "options": {
+      "1": "It increases latency",
+      "2": "It is incompatible with DAWs",
+      "3": "It discards audio information through lossy compression",
+      "4": "It requires analog conversion"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Digital Audio"
+  },
+  {
+    "question": "In modular synthesis, what does a VCO typically produce?",
+    "options": {
+      "1": "Modulation signals",
+      "2": "Audio or control voltage waveforms",
+      "3": "Filter sweeps",
+      "4": "MIDI messages"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What is the purpose of a VCA in a modular synth setup?",
+    "options": {
+      "1": "To generate low frequencies",
+      "2": "To add reverb effects",
+      "3": "To control the amplitude of a signal via CV",
+      "4": "To modulate pitch"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which module is typically used to shape the dynamics of a sound over time in modular synthesis?",
+    "options": {
+      "1": "LFO",
+      "2": "VCA",
+      "3": "Envelope Generator",
+      "4": "VCO"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What kind of signal does an LFO generate in modular synthesis?",
+    "options": {
+      "1": "MIDI",
+      "2": "High-frequency audio",
+      "3": "Low-frequency control voltage",
+      "4": "Filtered audio signal"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What is a 'normalized' connection in semi-modular synthesizers?",
+    "options": {
+      "1": "A built-in default patch connection",
+      "2": "A balanced audio cable",
+      "3": "A MIDI-over-CV converter",
+      "4": "A voltage limiter circuit"
+    },
+    "answer": 1,
+    "difficulty": "Advanced",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which voltage standard is most commonly used in Eurorack systems?",
+    "options": {
+      "1": "1V/octave for pitch and 5V gate",
+      "2": "10V/octave and 12V gate",
+      "3": "MIDI standard 5-pin",
+      "4": "0.5V/octave and 3V gate"
+    },
+    "answer": 1,
+    "difficulty": "Expert",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What does 'attenuverter' mean in modular synthesis terminology?",
+    "options": {
+      "1": "A device that doubles a signal’s voltage",
+      "2": "A module that delays CV signals",
+      "3": "A control that attenuates and inverts a signal",
+      "4": "A converter for audio to MIDI"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Why would you use a sample and hold module in a modular system?",
+    "options": {
+      "1": "To control filter resonance",
+      "2": "To create step-like modulation patterns",
+      "3": "To smooth LFO curves",
+      "4": "To trigger reverb effects"
+    },
+    "answer": 2,
+    "difficulty": "Advanced",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What role does a sequencer play in a modular synthesizer?",
+    "options": {
+      "1": "It outputs filtered white noise",
+      "2": "It modulates the oscillator waveform",
+      "3": "It sends out step-based CV and gate signals",
+      "4": "It compresses audio signals"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which of the following is *not* typically part of a modular synth signal flow?",
+    "options": {
+      "1": "Oscillator",
+      "2": "Reverb plugin",
+      "3": "Filter",
+      "4": "Envelope"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What function does a clock module serve in a modular synth setup?",
+    "options": {
+      "1": "It filters audio signals",
+      "2": "It generates pitch information",
+      "3": "It synchronizes tempo-based events",
+      "4": "It amplifies control voltage"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which of the following is used to split a control voltage to multiple destinations?",
+    "options": {
+      "1": "Quantizer",
+      "2": "Mult",
+      "3": "Sequencer",
+      "4": "Mixer"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What is the role of a quantizer module in a modular system?",
+    "options": {
+      "1": "To convert CV into audio",
+      "2": "To smooth pitch variations",
+      "3": "To snap voltages to musical scales",
+      "4": "To boost control voltage"
+    },
+    "answer": 3,
+    "difficulty": "Advanced",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "In modular synthesis, what does a slew limiter do?",
+    "options": {
+      "1": "Sharpens attack times",
+      "2": "Applies vibrato",
+      "3": "Smooths rapid changes in voltage",
+      "4": "Splits signals into multiple outputs"
+    },
+    "answer": 3,
+    "difficulty": "Expert",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What is the primary function of a noise generator in a modular system?",
+    "options": {
+      "1": "To modulate pitch",
+      "2": "To create random or textured sounds",
+      "3": "To generate harmonic content",
+      "4": "To track oscillator frequency"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What does 'CV' stand for in the context of modular synthesis?",
+    "options": {
+      "1": "Control Voltage",
+      "2": "Compressor Volume",
+      "3": "Convolution Vector",
+      "4": "Circuit Voltage"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which module type allows multiple audio or CV signals to be combined into one?",
+    "options": {
+      "1": "Splitter",
+      "2": "Filter",
+      "3": "Mixer",
+      "4": "Envelope"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Why would a modular synth user patch an LFO into a filter cutoff?",
+    "options": {
+      "1": "To control gain",
+      "2": "To add rhythmic modulation to the tone",
+      "3": "To generate random melodies",
+      "4": "To compress the signal"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "Which format is the most popular standard for modular synth hardware?",
+    "options": {
+      "1": "5U",
+      "2": "Eurorack",
+      "3": "Serge",
+      "4": "Buchla"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Modular Synthesis"
+  },
+  {
+    "question": "What is the key advantage of using modular synthesis?",
+    "options": {
+      "1": "Portability",
+      "2": "Preset recall",
+      "3": "Unlimited routing flexibility",
+      "4": "Built-in effects"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Modular Synthesis"
   }
 ]
