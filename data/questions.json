@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which of these DAWs is developed by Ableton?",
+    "options": {
+      "1": "FL Studio",
+      "2": "Logic Pro",
+      "3": "Live",
+      "4": "Pro Tools"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Software"
+  },
+  {
+    "question": "What is the typical bit depth used in professional audio recording?",
+    "options": {
+      "1": "8-bit",
+      "2": "16-bit",
+      "3": "24-bit",
+      "4": "32-bit"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Hardware"
+  },
+  {
+    "question": "What does ADSR stand for in synthesizers?",
+    "options": {
+      "1": "Attack, Decay, Sustain, Release",
+      "2": "Amplitude, Depth, Sustain, Resonance",
+      "3": "Attack, Delay, Sustain, Reverb",
+      "4": "Amplitude, Delay, Sustain, Release"
+    },
+    "answer": 1,
+    "difficulty": "Beginner",
+    "category": "Synthesis"
+  },
+  {
+    "question": "Which MIDI channel number is used for General MIDI percussion instruments?",
+    "options": {
+      "1": "1",
+      "2": "10",
+      "3": "16",
+      "4": "8"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "MIDI Theory"
+  },
+  {
+    "question": "What is the main purpose of a limiter in a mastering chain?",
+    "options": {
+      "1": "To add reverb",
+      "2": "To reduce background noise",
+      "3": "To prevent clipping",
+      "4": "To widen the stereo field"
+    },
+    "answer": 3,
+    "difficulty": "Advanced",
+    "category": "Mixing & Mastering"
+  },
+  {
+    "question": "Which connector type is typically used for professional microphones?",
+    "options": {
+      "1": "RCA",
+      "2": "XLR",
+      "3": "1/4 inch TS",
+      "4": "1/8 inch TRS"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Hardware"
+  },
+  {
+    "question": "Which company is known for the Kontakt sampler?",
+    "options": {
+      "1": "Native Instruments",
+      "2": "Spectrasonics",
+      "3": "Arturia",
+      "4": "Image-Line"
+    },
+    "answer": 1,
+    "difficulty": "Intermediate",
+    "category": "Software"
+  },
+  {
+    "question": "What type of synthesis is primarily used in the Yamaha DX7?",
+    "options": {
+      "1": "Subtractive",
+      "2": "Additive",
+      "3": "FM (Frequency Modulation)",
+      "4": "Wavetable"
+    },
+    "answer": 3,
+    "difficulty": "Advanced",
+    "category": "Synthesis"
+  },
+  {
+    "question": "In audio mixing, what does 'pan' control?",
+    "options": {
+      "1": "Volume",
+      "2": "Pitch",
+      "3": "Stereo placement",
+      "4": "EQ"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Mixing & Mastering"
+  },
+  {
+    "question": "Which plugin type is native to Apple Logic Pro?",
+    "options": {
+      "1": "VST",
+      "2": "AU",
+      "3": "AAX",
+      "4": "RTAS"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Software"
+  },
+  {
+    "question": "Who created the first commercially successful digital synthesizer, the DX7?",
+    "options": {
+      "1": "Roland",
+      "2": "Moog",
+      "3": "Yamaha",
+      "4": "Korg"
+    },
+    "answer": 3,
+    "difficulty": "Music Tech History",
+    "category": "Music Tech History"
+  },
+  {
+    "question": "What does a high-pass filter do?",
+    "options": {
+      "1": "Boosts low frequencies",
+      "2": "Cuts high frequencies",
+      "3": "Cuts low frequencies",
+      "4": "Adds resonance"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "Which device is used to convert analog audio signals into digital form?",
+    "options": {
+      "1": "Compressor",
+      "2": "Audio Interface",
+      "3": "Preamp",
+      "4": "Monitor Controller"
+    },
+    "answer": 2,
+    "difficulty": "Beginner",
+    "category": "Hardware"
+  },
+  {
+    "question": "What is the function of the threshold setting on a noise gate?",
+    "options": {
+      "1": "It sets how much compression is applied",
+      "2": "It defines when the gate opens or closes",
+      "3": "It determines attack time",
+      "4": "It boosts the signal"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Mixing & Mastering"
+  },
+  {
+    "question": "Which plugin format is used by Pro Tools?",
+    "options": {
+      "1": "AU",
+      "2": "VST3",
+      "3": "AAX",
+      "4": "VST2"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Software"
+  },
+  {
+    "question": "Which drum machine popularized electronic music in the 1980s?",
+    "options": {
+      "1": "Akai MPC",
+      "2": "Roland TR-808",
+      "3": "LinnDrum",
+      "4": "Yamaha RX5"
+    },
+    "answer": 2,
+    "difficulty": "Intermediate",
+    "category": "Music Tech History"
+  },
+  {
+    "question": "What does 'sidechain compression' typically achieve?",
+    "options": {
+      "1": "Boosts the bass",
+      "2": "Creates rhythmic pumping effects",
+      "3": "Reduces noise",
+      "4": "Widen the stereo image"
+    },
+    "answer": 2,
+    "difficulty": "Advanced",
+    "category": "Mixing & Mastering"
+  },
+  {
+    "question": "What is the purpose of MIDI velocity?",
+    "options": {
+      "1": "Controls the pitch of a note",
+      "2": "Changes the duration of a note",
+      "3": "Controls how loud or soft a note is played",
+      "4": "Assigns modulation to notes"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "MIDI Theory"
+  },
+  {
+    "question": "Which effect simulates space and depth by creating echoes of the sound?",
+    "options": {
+      "1": "EQ",
+      "2": "Compression",
+      "3": "Reverb",
+      "4": "Flanger"
+    },
+    "answer": 3,
+    "difficulty": "Beginner",
+    "category": "Audio Effects"
+  },
+  {
+    "question": "What kind of microphone is most commonly used for vocals in a studio setting?",
+    "options": {
+      "1": "Dynamic",
+      "2": "Ribbon",
+      "3": "Condenser",
+      "4": "Lavalier"
+    },
+    "answer": 3,
+    "difficulty": "Intermediate",
+    "category": "Hardware"
+  }
+]
