@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Tech Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+<div class="page-wrapper">
+    <div class="quiz-container">
+        <div id="question" class="question"></div>
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <div id="options" class="options"></div>
+        <div id="score" class="score">Score: 0</div>
+        <div id="feedback" class="feedback"></div>
+    </div>
+
+    <div class="back-button">
+        <button onclick="location.href='{{ url_for('index') }}'">⬅ Back to Home</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/gameEngine.js') }}"></script>
+</body>
+</html>

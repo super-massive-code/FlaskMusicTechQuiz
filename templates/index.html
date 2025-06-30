@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>🎛️ Music Tech Quiz</h1>
+    <p>Test your knowledge of music production, audio gear, and sound design.</p>
+       <div class="button-group">
+        <button onclick="location.href='{{ url_for('quiz') }}'">Start Quiz</button>
+        <button onclick="location.href='{{ url_for('leaderboard') }}'">View Leaderboard</button>
+    </div>
+    <div class="footer">Powered by the Wobbly Walrus</div>
+{% endblock %}
+

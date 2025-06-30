@@ -1,0 +1,938 @@
+[
+  {
+    "question": "What is the correct way to create a variable in Python?",
+    "options": [
+      "var x = 5",
+      "x = 5",
+      "int x = 5",
+      "declare x = 5"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is the correct syntax for a Python comment?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "<!-- This is a comment -->"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What data type is the result of: type(3.14)?",
+    "options": [
+      "<class 'int'>",
+      "<class 'float'>",
+      "<class 'str'>",
+      "<class 'decimal'>"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "define",
+      "func"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(len('Hello'))?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is used to create a list in Python?",
+    "options": [
+      "{}",
+      "()",
+      "[]",
+      "<>"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the correct way to import the math module?",
+    "options": [
+      "include math",
+      "import math",
+      "using math",
+      "require math"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      "^",
+      "**",
+      "pow",
+      "exp"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(bool(0))?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "None"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method is used to add an element to the end of a list?",
+    "options": [
+      "add()",
+      "insert()",
+      "append()",
+      "push()"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the correct syntax for an if statement in Python?",
+    "options": [
+      "if (x == 5):",
+      "if x == 5:",
+      "if x == 5 then:",
+      "if x == 5 {"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is NOT a valid Python variable name?",
+    "options": [
+      "_myvar",
+      "myVar",
+      "2myvar",
+      "my_var"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print('Python'[1])?",
+    "options": [
+      "P",
+      "y",
+      "t",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which loop is used to iterate over a sequence in Python?",
+    "options": [
+      "while",
+      "for",
+      "do-while",
+      "repeat"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What does the 'break' statement do in a loop?",
+    "options": [
+      "Skips the current iteration",
+      "Exits the loop completely",
+      "Restarts the loop",
+      "Pauses the loop"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the result of: 10 // 3 in Python?",
+    "options": [
+      "3.33",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which function is used to get input from the user in Python 3?",
+    "options": [
+      "input()",
+      "raw_input()",
+      "get_input()",
+      "read()"
+    ],
+    "answer": 0,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(type([]))?",
+    "options": [
+      "<class 'tuple'>",
+      "<class 'list'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "error"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the correct way to create a dictionary in Python?",
+    "options": [
+      "dict = []",
+      "dict = ()",
+      "dict = {}",
+      "dict = <>"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print('Hello' + 'World')?",
+    "options": [
+      "Hello World",
+      "HelloWorld",
+      "Hello+World",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method converts a string to lowercase?",
+    "options": [
+      "toLower()",
+      "lowercase()",
+      "lower()",
+      "downcase()"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What does the 'pass' statement do in Python?",
+    "options": [
+      "Exits the program",
+      "Does nothing (placeholder)",
+      "Passes a value to a function",
+      "Skips to the next iteration"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(3 == '3')?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "3"
+    ],
+    "answer": 1,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is used to create a tuple in Python?",
+    "options": [
+      "[]",
+      "{}",
+      "()",
+      "<>"
+    ],
+    "answer": 2,
+    "difficulty": "easy",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of list comprehension in Python?",
+    "options": [
+      "To compress lists",
+      "To create lists in a concise way",
+      "To sort lists",
+      "To merge lists"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print([1, 2, 3] * 2)?",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3, 1, 2, 3]",
+      "[1, 2, 3, 2]",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method returns a list of all keys in a dictionary?",
+    "options": [
+      "keys()",
+      "getKeys()",
+      "allKeys()",
+      "keyList()"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between '==' and 'is' operators?",
+    "options": [
+      "No difference",
+      "'==' compares values, 'is' compares identity",
+      "'==' compares identity, 'is' compares values",
+      "'is' is used for strings only"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(list(range(3)))?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is a mutable data type in Python?",
+    "options": [
+      "tuple",
+      "string",
+      "list",
+      "int"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What does the enumerate() function do?",
+    "options": [
+      "Counts items in a list",
+      "Returns index-value pairs",
+      "Sorts a list",
+      "Reverses a list"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print('abc'.find('b'))?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which keyword is used to create a lambda function?",
+    "options": [
+      "lambda",
+      "function",
+      "anonymous",
+      "def"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the __init__ method in a class?",
+    "options": [
+      "To initialize class variables",
+      "To initialize instance variables",
+      "To destroy objects",
+      "To define class methods"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(bool(''))?",
+    "options": [
+      "True",
+      "False",
+      "''",
+      "None"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method is used to remove and return the last item from a list?",
+    "options": [
+      "remove()",
+      "delete()",
+      "pop()",
+      "pull()"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between append() and extend() methods?",
+    "options": [
+      "No difference",
+      "append() adds single element, extend() adds multiple",
+      "extend() adds single element, append() adds multiple",
+      "extend() is faster"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(2 ** 3 ** 2)?",
+    "options": [
+      "64",
+      "512",
+      "18",
+      "36"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which statement correctly creates a set in Python?",
+    "options": [
+      "s = []",
+      "s = {}",
+      "s = set()",
+      "s = ()"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What does the zip() function do?",
+    "options": [
+      "Compresses files",
+      "Combines multiple iterables",
+      "Sorts lists",
+      "Filters lists"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(10 % 3)?",
+    "options": [
+      "3",
+      "1",
+      "3.33",
+      "0"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is used for string formatting in Python 3.6+?",
+    "options": [
+      "% operator",
+      ".format() method",
+      "f-strings",
+      "All of the above"
+    ],
+    "answer": 3,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the 'global' keyword?",
+    "options": [
+      "To create global functions",
+      "To access global variables inside functions",
+      "To make variables available everywhere",
+      "To import global modules"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(list('abc'))?",
+    "options": [
+      "['abc']",
+      "['a', 'b', 'c']",
+      "('a', 'b', 'c')",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method splits a string into a list?",
+    "options": [
+      "split()",
+      "divide()",
+      "separate()",
+      "break()"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the correct way to handle multiple exceptions?",
+    "options": [
+      "except Exception1, Exception2:",
+      "except (Exception1, Exception2):",
+      "except Exception1 or Exception2:",
+      "except Exception1 and Exception2:"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print({1, 2, 2, 3})?",
+    "options": [
+      "{1, 2, 2, 3}",
+      "{1, 2, 3}",
+      "[1, 2, 3]",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following creates a shallow copy of a list?",
+    "options": [
+      "list.copy()",
+      "list[:]",
+      "list(original_list)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the 'continue' statement?",
+    "options": [
+      "Stops the loop",
+      "Skips the rest of current iteration",
+      "Continues to next loop",
+      "Restarts the loop"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(bool([]))?",
+    "options": [
+      "True",
+      "False",
+      "[]",
+      "None"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method joins elements of a list into a string?",
+    "options": [
+      "join()",
+      "concat()",
+      "merge()",
+      "combine()"
+    ],
+    "answer": 0,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print('Hello'[::-1])?",
+    "options": [
+      "Hello",
+      "olleH",
+      "H",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to create an empty dictionary?",
+    "options": [
+      "{}",
+      "dict()",
+      "[]",
+      "dict([])"
+    ],
+    "answer": 2,
+    "difficulty": "medium",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of *args in function definitions?",
+    "options": [
+      "To pass keyword arguments",
+      "To pass variable number of positional arguments",
+      "To pass default arguments",
+      "To pass optional arguments"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print([x**2 for x in range(3)])?",
+    "options": [
+      "[0, 1, 4]",
+      "[1, 4, 9]",
+      "[0, 1, 2]",
+      "Error"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is a decorator in Python?",
+    "options": [
+      "A function that modifies other functions",
+      "A way to format strings",
+      "A type of loop",
+      "A data structure"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between __str__ and __repr__ methods?",
+    "options": [
+      "No difference",
+      "__str__ is for users, __repr__ is for developers",
+      "__repr__ is for users, __str__ is for developers",
+      "__str__ is faster"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of **kwargs in function definitions?",
+    "options": [
+      "To pass positional arguments",
+      "To pass variable number of keyword arguments",
+      "To pass default arguments",
+      "To pass required arguments"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(all([True, 1, 'hello']))?",
+    "options": [
+      "True",
+      "False",
+      "1",
+      "Error"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "Which method is used to create a generator in Python?",
+    "options": [
+      "return",
+      "yield",
+      "generate",
+      "create"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(any([False, 0, '']))?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "None"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is multiple inheritance in Python?",
+    "options": [
+      "A class inheriting from multiple classes",
+      "Multiple classes inheriting from one class",
+      "A way to create multiple objects",
+      "A type of polymorphism"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between deep copy and shallow copy?",
+    "options": [
+      "No difference",
+      "Deep copy copies nested objects, shallow copy doesn't",
+      "Shallow copy copies nested objects, deep copy doesn't",
+      "Deep copy is faster"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the property decorator?",
+    "options": [
+      "To create class properties",
+      "To make methods behave like attributes",
+      "To define static methods",
+      "To create private variables"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print((lambda x: x*2)(5))?",
+    "options": [
+      "5",
+      "10",
+      "25",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is a context manager in Python?",
+    "options": [
+      "A way to manage memory",
+      "An object that defines runtime context for statements",
+      "A type of exception handler",
+      "A debugging tool"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the __call__ method?",
+    "options": [
+      "To make objects callable like functions",
+      "To call other methods",
+      "To initialize objects",
+      "To destroy objects"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between staticmethod and classmethod?",
+    "options": [
+      "No difference",
+      "staticmethod doesn't take cls/self, classmethod takes cls",
+      "classmethod doesn't take cls/self, staticmethod takes cls",
+      "staticmethod is faster"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(sorted([3,1,4,1,5], reverse=True))?",
+    "options": [
+      "[1, 1, 3, 4, 5]",
+      "[5, 4, 3, 1, 1]",
+      "[3, 1, 4, 1, 5]",
+      "Error"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is duck typing in Python?",
+    "options": [
+      "A way to type variables",
+      "If it walks like a duck and quacks like a duck, it's a duck",
+      "A debugging technique",
+      "A way to create classes"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the super() function?",
+    "options": [
+      "To create superclasses",
+      "To call parent class methods",
+      "To make methods super fast",
+      "To create super variables"
+    ],
+    "answer": 1,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(max([1, 2, 3], key=lambda x: -x))?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "-3"
+    ],
+    "answer": 0,
+    "difficulty": "hard",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is a metaclass in Python?",
+    "options": [
+      "A class that creates other classes",
+      "A class with meta information",
+      "A parent class",
+      "A class decorator"
+    ],
+    "answer": 0,
+    "difficulty": "expert",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between __new__ and __init__?",
+    "options": [
+      "No difference",
+      "__new__ creates instance, __init__ initializes it",
+      "__init__ creates instance, __new__ initializes it",
+      "__new__ is faster"
+    ],
+    "answer": 1,
+    "difficulty": "expert",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the output of: print(next(iter([1, 2, 3])))?",
+    "options": [
+      "1",
+      "2",
+      "[1, 2, 3]",
+      "Error"
+    ],
+    "answer": 0,
+    "difficulty": "expert",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the purpose of the __slots__ attribute?",
+    "options": [
+      "To create time slots",
+      "To restrict attribute creation and save memory",
+      "To define method slots",
+      "To create array slots"
+    ],
+    "answer": 1,
+    "difficulty": "expert",
+    "category": "Python programming language"
+  },
+  {
+    "question": "What is the difference between 'is' and '==' when comparing None?",
+    "options": [
+      "No difference",
+      "'is' is preferred for None comparisons",
+      "'==' is preferred for None comparisons",
+      "Both are equally good"
+    ],
+    "answer": 1,
+    "difficulty": "expert",
+    "category": "Python programming language"
+  }
+]
