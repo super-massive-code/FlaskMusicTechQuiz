@@ -1,4 +1,4 @@
-name: Deploy front end to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,6 +7,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     permissions:
       contents: read
