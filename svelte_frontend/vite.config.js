@@ -4,7 +4,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte()],
-  base: './', // Relative paths - works anywhere
+  base: '/svelte_frontend/', // Correct subdirectory path
   build: {
     outDir: 'dist'
   }
