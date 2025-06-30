@@ -8,12 +8,19 @@
   // Quiz state
   let questions = [];
   let currentQuestionIndex = 0;
-  let score = 0;
+  let questionsCorrect = 0;
+  let basePoints = 0;
+  let timeBonus = 0;
   let timeLeft = 1.0;
   let selectedAnswerIndex = null;
   let isAnsweredCorrectly = null;
   let loading = true;
   let error = null;
+
+  // Reactive total score and percentage
+  $: totalScore = basePoints + timeBonus;
+  $: percentage = Math.round((questionsCorrect / 10) * 100);
+  $: performanceMessage = getPerformanceMessage(percentage);
 
   // Settings state
   let soundEnabled = true;
@@ -39,12 +46,23 @@
         throw new Error('Failed to load questions');
       }
       questions = await response.json();
+      questions = shuffleArray(questions);
       loading = false;
     } catch (err) {
       error = err.message;
       loading = false;
       console.error('Error loading questions:', err);
     }
+  }
+
+  function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
   }
 
   // Navigation functions
@@ -59,7 +77,9 @@
 
     // Reset quiz state
     currentQuestionIndex = 0;
-    score = 0;
+    questionsCorrect = 0;
+    basePoints = 0;
+    timeBonus = 0;
     timeLeft = 1.0;
     selectedAnswerIndex = null;
     isAnsweredCorrectly = null;
@@ -121,10 +141,16 @@
     isAnsweredCorrectly = correct;
 
     if (correct) {
-      // Score based on time remaining and difficulty
-      const timeBonus = Math.round(timeLeft * 100);
-      const difficultyBonus = getDifficultyBonus(currentQuestion.difficulty);
-      score += timeBonus + difficultyBonus;
+      // Increment questions correct
+      questionsCorrect++;
+
+      // Add base points based on difficulty
+      const difficultyPoints = getDifficultyPoints(currentQuestion.difficulty);
+      basePoints += difficultyPoints;
+
+      // Add time bonus based on speed only
+      const speedBonus = Math.round(timeLeft * 50); // Max 50 points for speed
+      timeBonus += speedBonus;
     }
 
     // Auto advance after 2 seconds
@@ -154,7 +180,7 @@
     }
   }
 
-  function getDifficultyBonus(difficulty) {
+  function getDifficultyPoints(difficulty) {
     switch (difficulty.toLowerCase()) {
       case 'easy': return 50;
       case 'medium': return 100;
@@ -164,8 +190,16 @@
     }
   }
 
+  function getPerformanceMessage(percentage) {
+    if (percentage >= 90) return "🏆 Excellent! Python Master!";
+    if (percentage >= 80) return "🎉 Great job! Well done!";
+    if (percentage >= 70) return "👍 Good work! Keep it up!";
+    if (percentage >= 60) return "📚 Not bad! Study more!";
+    return "💪 Keep practicing! You'll get there!";
+  }
+
   function getDifficultyColors(difficulty) {
-    switch (difficulty.toLowerCase()) {
+    switch (difficulty.towerCase()) {
       case 'easy': return 'bg-green-500 text-white';
       case 'medium': return 'bg-orange-500 text-white';
       case 'hard': return 'bg-red-500 text-white';
@@ -438,11 +472,13 @@
           <!-- Score Card -->
           <div class="w-full bg-blue-100 rounded-xl shadow-lg p-4">
             <div class="flex items-center justify-center gap-2">
-              <svg class="w-6 h-6 text-blue-600 fill-current" viewBox="0 0 24 24">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-              </svg>
-              <div class="text-xl font-black text-black">
-                Score: {score.toLocaleString()}
+              <div class="text-center">
+                <div class="text-lg font-black text-black">
+                  Total: {totalScore.toLocaleString()}
+                </div>
+                <div class="text-sm text-gray-600">
+                  Correct: {questionsCorrect} | Difficulty Points: {basePoints} | Time Bonus: {timeBonus}
+                </div>
               </div>
             </div>
           </div>
@@ -527,14 +563,34 @@
               Quiz Complete!
             </h1>
 
-            <!-- Score Label -->
-            <p class="text-gray-600 text-center text-lg mb-2">
-              Your Score
+            <!-- Performance Message -->
+            <p class="text-blue-600 text-center text-lg font-medium mb-4">
+              {performanceMessage}
             </p>
 
-            <!-- Final Score -->
-            <div class="text-4xl font-black text-blue-600 text-center">
-              {score.toLocaleString()}
+            <!-- Score Label -->
+            <p class="text-gray-600 text-center text-lg mb-4">
+              Your Results
+            </p>
+
+            <!-- Score Breakdown -->
+            <div class="space-y-2 mb-4">
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">Questions Correct: </span>
+                <span class="font-semibold text-gray-800">{questionsCorrect}/10 ({percentage}%)</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">Base Points:</span>
+                <span class="font-semibold text-gray-800">{(questionsCorrect * 100).toLocaleString()}</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-gray-600">Time Bonus:</span>
+                <span class="font-semibold text-gray-800">{timeBonus.toLocaleString()}</span>
+              </div>
+              <div class="border-t pt-2 flex justify-between items-center">
+                <span class="text-lg font-semibold text-gray-800">Total Score:</span>
+                <span class="text-2xl font-black text-blue-600">{totalScore.toLocaleString()}</span>
+              </div>
             </div>
 
           </div>
