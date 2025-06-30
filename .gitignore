@@ -62,7 +62,7 @@ db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
-instance/
+Flask/instance/
 .webassets-cache
 
 # Scrapy stuff:
@@ -172,4 +172,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-.idea/
+Flask/.idea/
