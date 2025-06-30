@@ -1,6 +1,8 @@
 {
-  "name": "svelte-quiz-app",
-  "version": "1.0.0",
+  "name": "python-quiz-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,5 +16,7 @@
     "tailwindcss": "^3.3.2",
     "vite": "^4.5.0"
   },
-  "type": "module"
+  "dependencies": {
+    "lucide-svelte": "^0.294.0"
+  }
 }
